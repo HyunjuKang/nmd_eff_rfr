@@ -6,8 +6,18 @@ A landmark study has proposed several factors on nonsense-mediated mRNA decay (N
 ## Software requirements
 
 ### Hardware requirements
+The provided code requires only a standard computer with enough RAM to support the in-memory operations.
+
 ### Software requirements
 ### Python Dependencies
+The provided code mainly depends on the Python scientific stacks
+'''
+numpy 
+pandas
+scikit-learn
+scipy
+pickle
+'''
 
 ## Installation guide
 ### Install from PyPi
