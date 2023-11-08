@@ -27,6 +27,11 @@ pickle
 ```
 
 ## Installation guide
+### Install from pip
+To install all the requirements, run the following command:
+```
+python -m pip install -r requirements.txt
+```
 
 ### Install from conda
 If you install the Anaconda Distribution, you will already have hundreds of packages installed. If you need to install a package, use
@@ -35,4 +40,19 @@ conda install <package-name>
 ```
 
 ## Demo and Instructions for use
+We provide related codes through Jupyter Notebooks. To try it:
+```
+jupyter notebook
+```
+
+Run demo.ipynb through Jupyter Notebooks. Funtions predict_NMD_efficiency and predict_NMD_efficiency_df aims to predict NMD efficiency for a single and a list of data.
+
+```
+def predict_NMD_efficiency(EJC_55_500:int, downstream_exon_count:int, last_exon:int,
+                           PTC_to_start_codon:int, dist_to_stop_codon:int, PTC_exon_length:int,
+                           PTC_to_intron:int, upstream_exon_count:int, cDNAcnt:int, 
+                           mRNA_half_life:float, c50nt_to_last_EJ:int, LOEUF:float) -> float:
+```
+
+train.ipynb and analysis.ipynb are also provided for further information.
 
