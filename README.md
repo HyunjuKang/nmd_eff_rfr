@@ -29,7 +29,10 @@ pickle
 ## Installation guide
 
 ### Install from conda
-
+If you install the Anaconda Distribution, you will already have hundreds of packages installed. If you need to install a package, use
+```
+conda install <package-name>
+```
 
 ## Demo and Instructions for use
 
