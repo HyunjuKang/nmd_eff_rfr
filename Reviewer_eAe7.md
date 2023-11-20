@@ -55,7 +55,7 @@ Thank you for your constructive question. We address the potential risks inheren
 
 **Reference**
 
-[1] https://en.wikipedia.org/wiki/Valence\_(chemistry) \\ 
+[1] https://en.wikipedia.org/wiki/Valence\_(chemistry) 
 
 
 ### W5: Rectifying minor error
@@ -68,6 +68,7 @@ Thank you for raising the important question. Our approach offers several advant
 As for causal-based methods like GEM and OrphicX, they rely on structural causal models (SCM), which are predominantly based on the assumption of existing class labels. Developing a causal-based model for explaining embedding vectors in unsupervised settings is an intriguing area for future research. However, in the absence of external SCM models, our method solely relies on our $Importance$ function to provide explanations in unsupervised settings.
 
 **Reference**
+
 [1] Luo, Dongsheng, Wei Cheng, Dongkuan Xu, Wenchao Yu, Bo Zong, Haifeng Chen, and Xiang Zhang. "Parameterized explainer for graph neural network." Advances in neural information processing systems 33 (2020): 19620-19631.
 
 [2] Yuan, Hao, Haiyang Yu, Jie Wang, Kang Li, and Shuiwang Ji. "On explainability of graph neural networks via subgraph explorations." In International conference on machine learning, pp. 12241-12252. PMLR, 2021.
