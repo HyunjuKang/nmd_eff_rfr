@@ -1,6 +1,6 @@
 We sincerely appreciate your valuable feedback for reviewing this paper. For the potential concerns you bring up, we would like to address them as follows.
 
-### W1 \& Q1: Addressing Scalability 
+### W1 \& Q1: Addressing scalability 
 
 Thank you for raising this important point. Scalability is an important factor to be considered particularly in real applications on very large graphs. While the total time complexity of UNR-Explainer is $O(t \cdot n \cdot |V|)$ in the worst case, there are several ways to escape the worst case in our MCTS settings. First, $t$ is limited to prevent an infinite loop when $Importance$ does not achieve 1.0. Secondly, $n$ as the number of nodes in the search tree is also constrained. In our MCTS setting, we implement a sampling method when a current tree expands child nodes. It potentially prevents exhausted cost for exploration especially when the input is extremely dense. The sampling in the expansion would be an answer for memory constraints on the assumption that UNR-Explaienr employs in dense graphs. Additionally, we choose the number of child nodes as the average degree of the input graph in the Expansion step. Please refer to section 4.2 - expansion for details of the process in our paper. Last, $|V|$ are not considered in all of the nodes in the input graph, but in relative close-hop nodes. In practice, the time complexity of UNR should be linear. Additionally, we tailor the design of MCTS carefully to reduce the computational time by 97.37\% as ((4.64 - 176.3) ÷ 176.3)×100 and performance increased by 1.9\% as ((0.96 - 0.42) ÷ 0.942) ×100 compared to SubgraphX-1 in Table 4.
 
@@ -8,7 +8,7 @@ Thank you for raising this important point. Scalability is an important factor t
 
 Thank you for the suggestion. We attached the figure describing an overview of UNR-Explainer in a revised version of our paper and attached [link](https://anonymous.4open.science/r/unr0929/figure_overview.jpg)
 
-### Q2: Addressing Sensitivity of Perturbation effect
+### Q2: Addressing sensitivity of perturbation effect
 Thanks for your valuable question. The sensitivity of explanations to perturbations can vary based on the nature of the data, 
 However, as observed in additional experiments following [link](https://anonymous.4open.science/r/unr0929/perturbation_param.jpg), less perturbation leads to less $Improtance$ as the counterfactual results. CiteSeer has fewer connections with an average degree of around 2, while Cora has more connections with an average degree of around 3. However, consistent findings indicate that, across different datasets, perturbation carries less importance when the magnitude of perturbation is lower. Thus, we recommend setting a perturbation as 0.0 which is equal to removing edges on most of the input graph to align well in the counterfactual context.
 
