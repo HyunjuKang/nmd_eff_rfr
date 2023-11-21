@@ -6,7 +6,7 @@ Thank you for raising this important point. Scalability is an important factor t
 
 ### W2: Adding overview of UNR-Explainer
 
-Thank you for the suggestion. We attached the figure describing an overview of UNR-Explainer in a revised version of our paper and attached [link(https://anonymous.4open.science/r/unr0929/figure_overview.jpg)
+Thank you for the suggestion. We attached the figure describing an overview of UNR-Explainer in a revised version of our paper and attached [link](https://anonymous.4open.science/r/unr0929/figure_overview.jpg)
 
 ### Q2: Addressing Sensitivity of Perturbation effect
 Thanks for your valuable question. The sensitivity of explanations to perturbations can vary based on the nature of the data, 
