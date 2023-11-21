@@ -1,6 +1,6 @@
 We sincerely appreciate your valuable feedback for reviewing this paper. For the potential concerns you bring up, we would like to address them as follows.
 
-### W1: Novelty
+### W1: Addressing novelty
 
 Thank you for raising the important question. We acknowledge that our method is not the first to implement Monte Carlo Tree Search (MCTS) in the graph XAI (Explainable Artificial Intelligence) domain. Prior works, such as RationaleRL [1] and SubgraphX [2], have utilized MCTS in their problem settings, each with a reward function tailored to their specific objectives. However, applying existing MCTS frameworks directly to unsupervised node learning models is challenging. The difficulty lies in defining suitable rewards and managing the increased uncertainty in exploring the graph space.
 
