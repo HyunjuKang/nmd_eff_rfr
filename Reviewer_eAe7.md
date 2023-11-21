@@ -16,7 +16,7 @@ First, our $Importance$ function shown in Equation (1) of our main text quantifi
 | Expansion              | without sampling   | with sampling                  |
 | Action value           | mean               | max                            |
 
-Consequently, our design of Monte Carlo Tree Search (MCTS) in UNR-Explainer reduces the computational time by 97.37\% [(4.64 - 176.3) ÷ 176.3] ×100 and performance increased by 1.9\% ([(0.96 - 0.42) ÷ 0.942] ×100) in the Table 4 of our paper, compared to SubgraphX-1. The significant improvement in the computational cost indicates the emphasis on MCTS design to tailor its problem settings. To avoid costly and unnecessary exploration, we propose a suitable MCTS framework for counterfactual explanations in unsupervised settings. Additionally, the new selection strategy and reward functions are theoretically analyzed with respect to the bounds of value and expressiveness, respectively.
+Consequently, our design of Monte Carlo Tree Search (MCTS) in UNR-Explainer reduces the computational time by 97.37\% as [(4.64 - 176.3) ÷ 176.3] ×100 and performance increased by 1.9\% as [(0.96 - 0.42) ÷ 0.942] ×100 in the Table 4 of our paper, compared to SubgraphX-1. The significant improvement in the computational cost indicates the emphasis on MCTS design to tailor its problem settings. To avoid costly and unnecessary exploration, we propose a suitable MCTS framework for counterfactual explanations in unsupervised settings. Additionally, the new selection strategy and reward functions are theoretically analyzed with respect to the bounds of value and expressiveness, respectively.
 
  **Reference** 
  
