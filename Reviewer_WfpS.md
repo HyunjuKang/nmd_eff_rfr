@@ -1,3 +1,4 @@
+We sincerely appreciate your valuable feedback for reviewing this paper. For the potential concerns you bring up, we would like to address them as follows.
 
 ### W1 \& Q2: Clarity of disscusion
 
