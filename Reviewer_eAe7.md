@@ -58,7 +58,7 @@ Thank you for your invaluable question. We address the potential risks inherent 
 
 Thank you for your thoughtful comment. We revised this issue in the current version of our paper. 
 
-### Q1: Rational for MCTS
+### Q1: Rationale for MCTS
 
 Thank you for raising the important question. Our approach offers several advantages over gradient-based or causal-based interpretable methods. Firstly, unlike gradient-based methods such as PG-Explainer, which attempt to ensure connectedness through a connected loss term but often fail to guarantee connected subgraphs, our MCTS-based framework reliably identifies exploratory subgraphs that are connected. This is because the additional regularization term in gradient-based methods does not consistently lead to connected subgraphs. Secondly, our objective function is not a differential equation, setting it apart from gradient-based methods. While SubgraphX employs the Shapley value for the importance measurement in its MCTS framework, our $Importance$ measure quantifies the change in the k-nearest neighbor nodes after perturbation, making our MCTS-based approach more suitable for exploring significant subgraphs in unsupervised settings.
 As for causal-based methods like GEM and OrphicX, they rely on structural causal models (SCM), which are predominantly based on the assumption of existing class labels. Developing a causal-based model for explaining embedding vectors in unsupervised settings is an intriguing area for future research. However, in the absence of external SCM models, our method solely relies on our $Importance$ function to provide explanations in unsupervised settings.
