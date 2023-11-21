@@ -14,7 +14,7 @@ Thank you for your suggestion. We attached the figure describing an overview of 
 
 
 ### Q2: Addressing sensitivity of perturbation effect
-Thanks for your valuable question. As demonstrated in our additional experiments, the sensitivity of the $ Importance $ measure in UNR-Explainer varies with different perturbation rates (details available at this [link](https://anonymous.4open.science/r/unr0929/perturbation_param.jpg). Specifically, when the perturbation parameter lies between 0.0 and 0.3, there is a gradual decline in $ Importance $ observed on the Cora and CiteSeer datasets. However, for perturbation parameters exceeding 0.4 — implying that 40\% or more of messages that ought to be weakened are retained — the effectiveness of the perturbation is reduced, leading to a lower $Importance $.
+Thanks for your valuable question. As demonstrated in our additional experiments, the sensitivity of the $Importance$ measure in UNR-Explainer varies with different perturbation rates (details available at this [link](https://anonymous.4open.science/r/unr0929/perturbation_param.jpg). Specifically, when the perturbation parameter lies between 0.0 and 0.3, there is a gradual decline in $Importance$ observed on the Cora and CiteSeer datasets. However, for perturbation parameters exceeding 0.4 — implying that $40\%$ or more of messages that ought to be weakened are retained — the effectiveness of the perturbation is reduced, leading to a lower $Importance$.
 
 
 ### Q3-1: Addressing analysis of explanations by models as GraphSAGE vs DGI
