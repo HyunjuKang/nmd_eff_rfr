@@ -72,6 +72,3 @@ As for causal-based methods like GEM [3] and OrphicX [4], they rely on structura
 [3] Lin, Wanyu, Hao Lan, and Baochun Li. "Generative causal explanations for graph neural networks." In International Conference on Machine Learning, pp. 6666-6679. PMLR, 2021.
 
 [4] Lin, Wanyu, Hao Lan, Hao Wang, and Baochun Li. "Orphicx: A causality-inspired latent variable model for interpreting graph neural networks." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 13729-13738. 2022.
-
-
-We express our sincere gratitude for  the opportunity to improve our paper based on your valuable feedback. The revisions made in response aim to comprehensively address the raised concerns.
